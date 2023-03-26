@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: #FCFCFC;
+    font-family: 'Times New Roman', sans-serif;
+    /*font-size: 15px;*/
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+
+}
+
+.nav_link {
+    color: #333333;
+    text-decoration: none;
+    margin: 64px;
+}
+
+.logo {
+    display: flex;
+    font-family: 'Kelly Slab', cursive;
+    position: absolute;
+    left: 9.84%;
+    right: 75.39%;
+    top: 45px;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+}
+
+.logo_firstword {
+    top: 45px;
+    font-size: 52px;
+}
+
+.line {
+    position: absolute;
+    width: 143px;
+    height: 0px;
+    border: 2px solid rgba(151, 151, 151, 0.3);
+    transform: rotate(90deg);
+
+    margin: 100px auto 38px 300px;
+}
+
+.logo_otherwords {
+    position: absolute;
+    height: 65px;
+    width: max-content;
+    left: -32px;
+    right: 32px;
+    top: 70px;
+    font-family: 'Kelly Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    
+}
+
+.header {
+    background: rgba(229, 229, 229, 0.75);
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header_top {
+    height: 219px;
+}
+
+.menu {
+    padding: 0px;
+    top: 219px;
+    width: 100%;
+    background: rgba(229, 229, 229, 1);
+    height: 51px;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
