@@ -111,6 +111,62 @@
     .nav_button {
         height: 4.65vw;
     }
+
+    .banner {
+        justify-content: space-evenly;
+    }
+
+    .banner_list_container {
+        width: 41vw;
+    }
+    .banner_list {
+        font-size: 3.3vw;
+    }
+    .banner_images {
+        height: 80vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner_image {
+        height: 50%;
+        width: fit-content;
+    }
+    .banner_left_part_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+    }
+    .three_advantages {
+        display: none;
+    }
+    .three_advantages.mobile {
+        display: flex;
+        height: 35vw;
+        width: 35vw;
+        margin-top: 3.5vw;
+        margin-bottom: 2.2vw;
+        justify-content: space-between;
+    }
+
+    .logo_container {
+        padding-right: 3.96vw;
+    }
+    .advantage_logo {
+        width: 7.57vw;
+    }
+
+    .advantage_logo_bus {
+        width: 9.6vw;
+    }
+
+    .title_advantage_text {
+        font-size: 3.445vw;
+    }
+
+    .additional_text {
+        font-size: 2.375vw;
+    }
 }
 
 @media(max-width: 480px) {
@@ -163,4 +219,49 @@
     .nav_button {
         height: 6vw;
     }
+
+    .banner {
+        justify-content: space-between;
+    }
+
+    .banner_list_container {
+        width: 46.6vw;
+    }
+
+    .banner_list {
+        font-size: 3.75vw;
+    }
+
+    .banner_images {
+        height: 91vw;
+    }
+
+    .three_advantages.mobile {
+        height: 40vw;
+        width: 40vw;
+        margin-top: 4vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .logo_container {
+        padding-right: 4.5vw;
+    }
+
+    .advantage_logo {
+        width: 8.6vw;
+    }
+
+    .advantage_logo_bus {
+        width: 10.9vw;
+    }
+
+    .title_advantage_text {
+        font-size: 3.92vw;
+    }
+
+    .additional_text {
+        font-size: 2.7vw;
+    }
+
+  
 }
