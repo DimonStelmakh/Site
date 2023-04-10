@@ -169,6 +169,7 @@ button {
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
+    align-items: center;
     background-color: #333333;
     border-radius: 6px;
     text-decoration: none;

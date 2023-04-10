@@ -1,35 +1,17 @@
-.shorter_tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    width: 27.34375vw;
+.tab.shorter {
     height: 52.34375vw;
-    background-color: rgba(229, 229, 229, 0.6);
-    padding: 2.34375vw;
 }
 
-.shorther_tab_title {
-    font-size: 2.5vw;
-    font-weight: 700;
-    text-align: center;
+.tab_title.shorther {
     margin: 1.5625vw auto 0;
 }
 
-.price_for_shorter_tab {
-    font-size: 2.5vw;
-    color: #000000;
-    text-align: center;
-    margin: 1.5625vw auto 1.5625vw;
+.price.shorther {
+    margin: 1.5625vw auto;
 }
 
-.order_button_container_for_shorter_tab {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+.order_button_container.shorther {
     height: 6.73%;
-    margin: 0;
 }
 
 .button_load_more_container {
@@ -37,8 +19,9 @@
     flex-direction: row;
     justify-content: center;
     width: 31.25vw;
-    height: 4.6875vw;
-    margin: 5.46875vw auto 0;
+    height: 5.6875vw;
+    margin: 1vw auto 4.47vw;
+    padding-top: 1vw;
 
     vertical-align: middle;
     
@@ -50,7 +33,7 @@
     justify-content: center;
     vertical-align: middle;
     background-color: #333333;
-    border-radius: 0.47vw;
+    border-radius: 6px;
     text-decoration: none;
     padding: 0.781vw 2.34vw;
     font-size: 2.5vw;

@@ -49,8 +49,13 @@
 }
 
 .aboutus_text {
-    font-size: 2.8125vw;
+    font-size: 2.775vw;
     text-align: left;
     margin: auto 0%;
     width: 66.67%;
+}
+
+.artificial_space {
+    background-color: transparent;
+    display: none;
 }

@@ -107,16 +107,11 @@
     margin-bottom: 0;
 }
 
-.h2_with_line_above {
-    text-align: center;
-    font-size: 3.125vw;
-    font-weight: 700;
-    color: #333333;
-    /*margin-top: 5.46875vw;
-    margin-bottom: 0;*/
+.h2.with_line_above {
+    margin-top: 0;
 }
 
-.h2_with_line_above:before {
+.h2.with_line_above:before {
     content: "";
     display: block;
     width: 78.125vw;
@@ -124,7 +119,7 @@
     background-color: #D7D6D6;
     border: 1px solid #D7D6D6;
 
-    margin: 5.46875vw auto;
+    margin: 1vw auto 5.47vw;
 }
 
 .separated_button_block {
@@ -140,9 +135,10 @@
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     vertical-align: middle;
     background-color: #333333;
-    border-radius: 0.47vw;
+    border-radius: 6px;
     text-decoration: none;
     margin-top: 2vw;
     padding: 0.781vw 2.34vw;
@@ -160,7 +156,7 @@
     background-color: #D7D6D6;
     border: 1px solid #D7D6D6;
 
-    margin: 5.46875vw auto 2.65625vw;
+    margin: 1vw auto 2.65625vw;
 }
 
 .separated_button_block:after {
@@ -184,11 +180,12 @@
     width: fit-content;
 }
 
-.tabs_block_of_three {
+.tabs_block {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 4.53125vw 4.53125vw 0 4.53125vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2.1vw 2vw;
 }
 
 .tab {
@@ -196,8 +193,9 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 27.34375vw;
-    height: 70.546875vw;
+    width: 27vw;
+    margin: 2.1vw 2vw;
+    height: 70.55vw;
     background-color: rgba(229, 229, 229, 0.6);
     padding: 2.34375vw;
 }
@@ -206,7 +204,7 @@
     background-color: transparent;
     opacity: 1;
     width: 100%;
-    height: 33.75vw;
+    /*height: 33.75vw;*/
 }
 
 .tab_title {
@@ -236,7 +234,7 @@ ul.tab_list {
     font-size: 2.5vw;
     color: #000000;
     text-align: center;
-    margin: 1.953125vw auto 1.953125vw;
+    margin: 1.953125vw auto;
 }
 
 .sale_price_container {
@@ -245,7 +243,7 @@ ul.tab_list {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    margin: 1.953125vw auto 1.953125vw;
+    margin: 1.953125vw auto;
 }
 
 .regular_price {
@@ -256,7 +254,6 @@ ul.tab_list {
 
 .sale_price {
     color: #000000;
-    margin: 1.953125vw auto 1.953125vw;
     margin: auto 0 auto 1.171875vw;
 }
 
@@ -274,6 +271,7 @@ ul.tab_list {
     flex-direction: row;
     justify-content: center;
     vertical-align: middle;
+    align-items: center;
     background-color: #333333;
     border-radius: 0.47vw;
     text-decoration: none;
