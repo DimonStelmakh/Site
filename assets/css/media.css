@@ -89,7 +89,9 @@
 
     .button_map {
         border-radius: 5px;
+        width: 24vw;
     }
+}
 
 @media(max-width: 768px) {
     .logo {
@@ -464,6 +466,10 @@
         width: 7.325vw;
     }
 
+    .circle.single {
+        margin-top: 2vw;
+    }
+
     .numbers_container {
         display: flex;
         flex-direction: column;
@@ -643,5 +649,4 @@
     .button {
         font-size: 3vw;
     }
-    
 }
