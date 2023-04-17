@@ -273,7 +273,7 @@ ul.tab_list {
     vertical-align: middle;
     align-items: center;
     background-color: #333333;
-    border-radius: 0.47vw;
+    border-radius: 6px;
     text-decoration: none;
     font-size: 1.875vw;
     padding: 0.5vw 2.34vw;
