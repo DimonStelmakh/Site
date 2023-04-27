@@ -1,63 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/header_footer.css">
-    <link rel="stylesheet" href="assets/css/landing.css">
-    <link rel="stylesheet" href="assets/css/about_us.css">
-    <link rel="stylesheet" href="assets/css/catalog.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Montserrat&display=swap" rel="stylesheet">
-    <title>Атрибут</title>
-</head>
-<body>
-    <div class="header">
-        <div class="header_top">
-            <div class="logo_and_line">
-                <div class="logo">
-                    <div class="logo_firstword">Атрибут</div>
-                    <div class="logo_otherwords">Пам'ятники<br>з природного каменю</div>
-                </div>
-                <div class="line"></div>
-            </div>
-            <div class="header_buttons_container">
-                <div class="header_buttons">
-                    <div class="header_button">
-                        <div class="header_bold_text">м. Костопіль, вул. Нечая, 22</div>
-                        <a class="button" href="#">
-                            Переглянути на мапі
-                            <img class="inline_svg_mappin" src="assets/images/svg/cut_map-pin.svg" alt="" />
-                        </a>
-                    </div>
-                    <div class="header_button">
-                        <div class="header_bold_text">+38 (097) 235 73 87</div>
-                        <a class="button" href="#">
-                            Передзвоніть мені
-                            <img class="inline_svg_phone" src="assets/images/svg/cut_phone.svg" alt="" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="menu">
-            <div class="nav_text">
-                <a class="nav_link" href="index.php">Головна</a>
-                <a class="nav_link" href="catalog_black.php">Каталог</a>
-                <a class="nav_link hideable two" href="#">Доставка і оплата</a>
-                <a class="nav_link" href="#">Установка</a>
-                <a class="nav_link hideable three" href="#">Гарантія</a>
-                <a class="nav_link hideable one" href="#">Новини</a>
-                <a class="nav_link" href="about_us.php">Про нас</a>
-                <a class="nav_button" href="#">
-                    <img class="lines_svg" src="assets/images/svg/lines-svgrepo-com.svg" alt=""/>
-                </a>
-            </div>
-        </nav>
-    </div>
-
+﻿<?php require 'head.php';?>
+<?php require 'header.php';?>
     <section>
         <h1 class="h1">Каталог</h1>
         <h2 class="h2">Чорні пам'ятники</h2>
@@ -196,132 +138,20 @@
             </div>
         </div>
 
-    <div class="button_load_more_container">
-        <a class="button_load_more">
-            Завантажити ще
-            <img class="central_buttons_svg" src="assets/images/svg/cut_arrow-down.svg" alt="" />
-        </a>
-    </div>
-    <div class="separated_button_block">
-        Інші категорії пам'ятників
-        <a class="separated_button" href="#">
-            Переглянути
-            <img class="inline_svg_catalog" src="assets/images/svg/cut_catalog.svg" alt=""/>
-        </a>
-    </div>
-    </section>
-
-    <div class="footer">
-        <div class="footer_content">
-            <div class="footer_content_part left">
-                <div class="base_text">Адреса прийому замовлень і місцезнаходження потужностей виробництва:</div>
-                <div class="bold_text">м. Костопіль, вул. Нечая, 22</div>
-                <a class="button_map">
-                    Переглянути на мапі
-                    <img class="inline_svg_mappin" src="assets/images/svg/cut_map-pin.svg" alt="" />
-                </a>
-                <div class="base_text">
-                    <div class="base_with_space">Графік роботи:</div>
-                </div>
-                <div class="bold_text">ПН-ПТ: 09:00 - 18:00<br>СБ: 10:00 - 16:00</div>
-            </div>
-            <div class="footer_content_part center">
-                <div class="circles_line">
-                    <img class="circle" src="assets/images/svg/cut_phone_in_sircle.svg" alt="" />
-                    <img class="circle" src="assets/images/svg/telegram-svgrepo-com.svg" alt="" />
-                    <img class="circle" src="assets/images/svg/viber-color-svgrepo-com.svg" alt="" />
-                </div>
-                <div class="bold_text">+38 (097) 235 73 87</div>
-                <div class="circles_line">
-                    <img class="circle single" src="assets/images/svg/cut_phone_in_sircle.svg" alt="" />
-                </div>
-                <div class="bold_text">+38 (097) 481 60 45</div>
-                <div class="callback desktop">
-                    <div class="callback_text">Замовте зворотний дзвінок</div>
-                    <div class="callback_field">
-                        <div class="callback_field_text">Введіть номер телефону</div>
-                        <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_content_part right">
-                <div class="button_container">
-                    <a class="button_facebook" href="https://www.facebook.com/profile.php?id=100085148445856">
-                        Facebook сторінка
-                        <img class="inline_svg_facebook" src="assets/images/svg/cut_facebook_inverted.svg" alt="" />
-                    </a>
-                </div>
-                <div class="facebook_images">
-                    <div class="facebook_images_row first">
-                        <img class="facebook_image" src="assets/images/ready/1.jpg" alt="" />
-                        <img class="facebook_image" src="assets/images/ready/2.jpg" alt="" />
-                    </div>
-                    <div class="facebook_images_row second">
-                        <img class="facebook_image" src="assets/images/ready/3.png" alt="" />
-                        <img class="facebook_image" src="assets/images/ready/4.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="mobile_big_container">
-                <div class="footer_mobile_column left">
-                    <div class="address_container">
-                        <div class="base_text">Адреса прийому замовлень і місцезнаходження потужностей виробництва:</div>
-                        <div class="bold_text">м. Костопіль, вул. Нечая, 22</div>
-                        <a class="button_map">
-                            Переглянути на мапі
-                            <img class="inline_svg_mappin" src="assets/images/svg/cut_map-pin.svg" alt="" />
-                        </a>
-                    </div>
-
-                    <div class="numbers_container">
-                        <div class="circles_line">
-                            <img class="circle" src="assets/images/svg/cut_phone_in_sircle.svg" alt="" />
-                            <img class="circle" src="assets/images/svg/telegram-svgrepo-com.svg" alt="" />
-                            <img class="circle" src="assets/images/svg/viber-color-svgrepo-com.svg" alt="" />
-                        </div>
-                        <div class="bold_text numbers">+38 (097) 235 73 87</div>
-                        <div class="circles_line">
-                            <img class="circle single" src="assets/images/svg/cut_phone_in_sircle.svg" alt="" />
-                        </div>
-                        <div class="bold_text numbers">+38 (097) 481 60 45</div>
-                    </div>
-
-
-
-                </div>
-                <div class="footer_mobile_column right">
-                    <div class="worktime">
-                        <div class="base_text">Графік роботи:</div>
-                        <div class="bold_text">ПН-ПТ: 09:00 - 18:00<br>СБ: 10:00 - 16:00</div>
-                    </div>
-                    <div class="button_container">
-                        <a class="button_facebook" href="https://www.facebook.com/profile.php?id=100085148445856">
-                            Facebook сторінка
-                            <img class="inline_svg_facebook" src="assets/images/svg/cut_facebook_inverted.svg" alt="" />
-                        </a>
-                    </div>
-                    <div class="facebook_images">
-                        <div class="facebook_images_row first">
-                            <img class="facebook_image" src="assets/images/ready/1.jpg" alt="" />
-                            <img class="facebook_image" src="assets/images/ready/2.jpg" alt="" />
-                        </div>
-                        <div class="facebook_images_row second">
-                            <img class="facebook_image" src="assets/images/ready/3.png" alt="" />
-                            <img class="facebook_image" src="assets/images/ready/4.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="callback mobile">
-                <div class="callback_text">Замовте зворотний дзвінок</div>
-                <div class="callback_field">
-                    <div class="callback_field_text">Введіть номер телефону</div>
-                    <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
-                </div>
-            </div>
+        <div class="button_load_more_container">
+            <a class="button_load_more">
+                Завантажити ще
+                <img class="central_buttons_svg" src="assets/images/svg/cut_arrow-down.svg" alt="" />
+            </a>
         </div>
-    </div>
-
+        <div class="separated_button_block">
+            Інші категорії пам'ятників
+            <a class="separated_button" href="#">
+                Переглянути
+                <img class="inline_svg_catalog" src="assets/images/svg/cut_catalog.svg" alt=""/>
+            </a>
+        </div>
+    </section>
+<?php require 'footer.php';?>
 </body>
 </html>
