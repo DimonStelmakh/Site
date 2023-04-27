@@ -1,11 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/header_footer.css">
     <link rel="stylesheet" href="assets/css/landing.css">
     <link rel="stylesheet" href="assets/css/about_us.css">
-    <link rel="stylesheet" href="assets/css/catalog.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Montserrat&display=swap" rel="stylesheet">
     <title>Атрибут</title>
 </head>
+
 <body>
     <div class="header">
         <div class="header_top">
@@ -44,171 +44,45 @@
         </div>
         <nav class="menu">
             <div class="nav_text">
-                <a class="nav_link" href="index.html">Головна</a>
-                <a class="nav_link" href="#">Каталог</a>
+                <a class="nav_link" href="index.php">Головна</a>
+                <a class="nav_link" href="catalog_black.php">Каталог</a>
                 <a class="nav_link hideable two" href="#">Доставка і оплата</a>
                 <a class="nav_link" href="#">Установка</a>
                 <a class="nav_link hideable three" href="#">Гарантія</a>
                 <a class="nav_link hideable one" href="#">Новини</a>
-                <a class="nav_link" href="about_us.html">Про нас</a>
+                <a class="nav_link" href="about_us.php">Про нас</a>
                 <a class="nav_button" href="#">
-                    <img class="lines_svg" src="assets/images/svg/lines-svgrepo-com.svg" />
+                    <img class="lines_svg" src="assets/images/svg/lines-svgrepo-com.svg" alt=""/>
                 </a>
             </div>
         </nav>
     </div>
 
     <section>
-        <h1 class="h1">Каталог</h1>
-        <h2 class="h2">Чорні пам'ятники</h2>
-        <div class="tabs_block">
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
+        <h1 class="h1">Про нас</h1>
+        <div class="main_tab">
+            <div class="half_tab">
+                <img class="aboutus_image" src="assets/images/about/1.jpg" alt="" />
+                <div class="aboutus_text">
+                    Наша фірма займається виготовленням та встановленням пам’ятників з 2005 року. 
+                    За цей час ми якісно реалізували незліченну кількість проєктів, від найдешевших до найдорожчих. 
+                    Ми пропонуємо широкий вибір пам’ятників по каталогах, а також виконуємо індивідуальні замовлення. 
+                    Наша особливість також в тому, що керівником є художник з багаторічним досвідом, 
+                    який особисто виконує гравірування портретів.
                 </div>
             </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
+            <div class="artificial_space"></div>
+            <div class="half_tab">
+                <div class="aboutus_text">
+                    Наші принципи. По-перше, це совісність. Ми всю роботу виконуємо виключно на совість,
+                    не допускаючи халтуру і впевнюючись у якості виконаних робіт. По-друге, гнучність.
+                    До замовлення можна вносити зміни допоки відповідні його елементи не пішли в роботу.
+                    По-третє, універсальність. Ми можемо виконати проєкт абсолютно будь-якої складності,
+                    це може лише потребувати більше часу.
                 </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
-            </div>
-            <div class="tab shorter">
-                <img class="intab_picture" src="assets/images/template_cut_lt.png" alt="" />
-                <div class="tab_title shorther">Чорний №1</div>
-                <div class="price shorther">9500 ₴</div>
-                <div class="order_button_container shorther">
-                    <a class="order_button" href="#">
-                        Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
-                    </a>
-                </div>
+                <img class="aboutus_image" src="assets/images/about/2.jpg" alt="" />
             </div>
         </div>
-
-    <div class="button_load_more_container">
-        <a class="button_load_more">
-            Завантажити ще
-            <img class="central_buttons_svg" src="assets/images/svg/cut_arrow-down.svg" alt="" />
-        </a>
-    </div>
-    <div class="separated_button_block">
-        Інші категорії пам'ятників
-        <a class="separated_button" href="#">
-            Переглянути
-            <img class="inline_svg_catalog" src="assets/images/svg/cut_catalog.svg" />
-        </a>
-    </div>
     </section>
 
     <div class="footer">
@@ -238,7 +112,7 @@
                 <div class="bold_text">+38 (097) 481 60 45</div>
                 <div class="callback desktop">
                     <div class="callback_text">Замовте зворотний дзвінок</div>
-                    <div class="callback_field" href="#">
+                    <div class="callback_field">
                         <div class="callback_field_text">Введіть номер телефону</div>
                         <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
                     </div>
@@ -315,13 +189,13 @@
             </div>
             <div class="callback mobile">
                 <div class="callback_text">Замовте зворотний дзвінок</div>
-                <div class="callback_field" href="#">
+                <div class="callback_field">
                     <div class="callback_field_text">Введіть номер телефону</div>
                     <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
+
 </html>

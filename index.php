@@ -43,15 +43,15 @@
             </div>
             <nav class="menu">
                 <div class="nav_text">
-                    <a class="nav_link" href="#">Головна</a>
-                    <a class="nav_link" href="catalog_black.html">Каталог</a>
+                    <a class="nav_link" href="index.php">Головна</a>
+                    <a class="nav_link" href="catalog_black.php">Каталог</a>
                     <a class="nav_link hideable two" href="#">Доставка і оплата</a>
                     <a class="nav_link" href="#">Установка</a>
                     <a class="nav_link hideable three" href="#">Гарантія</a>
                     <a class="nav_link hideable one" href="#">Новини</a>
-                    <a class="nav_link" href="about_us.html">Про нас</a>
+                    <a class="nav_link" href="about_us.php">Про нас</a>
                     <a class="nav_button" href="#">
-                        <img class="lines_svg" src="assets/images/svg/lines-svgrepo-com.svg" />
+                        <img class="lines_svg" src="assets/images/svg/lines-svgrepo-com.svg" alt=""/>
                     </a>
                 </div>
             </nav>
@@ -69,27 +69,27 @@
                     </ul>
                 </div>
                 <div class="three_advantages mobile">
-                    <div class="advantage" href="#">
+                    <div class="advantage">
                         <div class="logo_container">
-                            <img class="advantage_logo_bus" src="assets/images/svg/bus-svgrepo-com.svg" />
+                            <img class="advantage_logo_bus" src="assets/images/svg/bus-svgrepo-com.svg" alt=""/>
                         </div>
                         <div class="advantage_text">
                             <div class="title_advantage_text">Доставка</div>
                             <div class="additional_text">Будь-куди. 10 грн/км</div>
                         </div>
                     </div>
-                    <div class="advantage" href="#">
+                    <div class="advantage">
                         <div class="logo_container">
-                            <img class="advantage_logo" src="assets/images/svg/shovel-svgrepo-com.svg" />
+                            <img class="advantage_logo" src="assets/images/svg/shovel-svgrepo-com.svg" alt=""/>
                         </div>
                         <div class="advantage_text">
                             <div class="title_advantage_text">Установка</div>
                             <div class="additional_text">Будь-яких комплектів</div>
                         </div>
                     </div>
-                    <div class="advantage" href="#">
+                    <div class="advantage">
                         <div class="logo_container">
-                            <img class="advantage_logo" src="assets/images/svg/shield-check-white-svgrepo-com.svg" />
+                            <img class="advantage_logo" src="assets/images/svg/shield-check-white-svgrepo-com.svg" alt=""/>
                         </div>
                         <div class="advantage_text">
                             <div class="title_advantage_text">Гарантія</div>
@@ -103,27 +103,27 @@
                 <img class="banner_image" src="assets/images/banner_images/2.png" alt="" />
             </div>
             <div class="three_advantages">
-                <div class="advantage" href="#">
+                <div class="advantage">
                     <div class="logo_container">
-                        <img class="advantage_logo_bus" src="assets/images/svg/bus-svgrepo-com.svg" />
+                        <img class="advantage_logo_bus" src="assets/images/svg/bus-svgrepo-com.svg" alt=""/>
                     </div>
                     <div class="advantage_text">
                         <div class="title_advantage_text">Доставка</div>
                         <div class="additional_text">Будь-куди. 10 грн/км</div>
                     </div>
                 </div>
-                <div class="advantage" href="#">
+                <div class="advantage">
                     <div class="logo_container">
-                        <img class="advantage_logo" src="assets/images/svg/shovel-svgrepo-com.svg" />
+                        <img class="advantage_logo" src="assets/images/svg/shovel-svgrepo-com.svg" alt=""/>
                     </div>
                     <div class="advantage_text">
                         <div class="title_advantage_text">Установка</div>
                         <div class="additional_text">Будь-яких комплектів</div>
                     </div>
                 </div>
-                <div class="advantage" href="#">
+                <div class="advantage">
                     <div class="logo_container">
-                        <img class="advantage_logo" src="assets/images/svg/shield-check-white-svgrepo-com.svg" />
+                        <img class="advantage_logo" src="assets/images/svg/shield-check-white-svgrepo-com.svg" alt=""/>
                     </div>
                     <div class="advantage_text">
                         <div class="title_advantage_text">Гарантія</div>
@@ -153,7 +153,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -193,7 +193,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -213,7 +213,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -253,7 +253,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -280,7 +280,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -303,7 +303,7 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -326,16 +326,16 @@
                 <div class="order_button_container">
                     <a class="order_button" href="#">
                         Замовити
-                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" />
+                        <img class="inline_svg_order" src="assets/images/svg/cut_order.svg" alt=""/>
                     </a>
                 </div>
             </div>
         </div>
         <div class="separated_button_block">
             Перегляньте усі пропозиції в каталозі
-            <a class="separated_button" href="catalog_black.html">
+            <a class="separated_button" href="catalog_black.php">
                 Перейти в каталог
-                <img class="inline_svg_catalog" src="assets/images/svg/cut_catalog.svg" />
+                <img class="inline_svg_catalog" src="assets/images/svg/cut_catalog.svg" alt=""/>
             </a>
         </div>
     </section>
@@ -367,7 +367,7 @@
                 <div class="bold_text">+38 (097) 481 60 45</div>
                 <div class="callback desktop">
                     <div class="callback_text">Замовте зворотний дзвінок</div>
-                    <div class="callback_field" href="#">
+                    <div class="callback_field">
                         <div class="callback_field_text">Введіть номер телефону</div>
                         <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
                     </div>
@@ -444,7 +444,7 @@
             </div>
             <div class="callback mobile">
                 <div class="callback_text">Замовте зворотний дзвінок</div>
-                <div class="callback_field" href="#">
+                <div class="callback_field">
                     <div class="callback_field_text">Введіть номер телефону</div>
                     <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
                 </div>
