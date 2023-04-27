@@ -24,11 +24,14 @@
             </div>
             <div class="bold_text">+38 (097) 481 60 45</div>
             <div class="callback desktop">
-                <div class="callback_text">Замовте зворотний дзвінок</div>
-                <div class="callback_field">
-                    <div class="callback_field_text">Введіть номер телефону</div>
-                    <a class="callback_button" href="#">Чекаю<br>дзвінка!</a>
-                </div>
+                <form action="submitted.php" method="post">
+                    <div class="callback_text">Замовте зворотний дзвінок</div>
+                    <div class="callback_field">
+                        <input type="number" class="callback_field_text" name="number"
+                               placeholder="Введіть номер телефону" value="">
+                        <input type="submit" class="callback_button" value="Чекаю&#10;дзвінка!">
+                    </div>
+                </form>
             </div>
         </div>
         <div class="footer_content_part right">
