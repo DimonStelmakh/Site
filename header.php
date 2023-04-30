@@ -12,17 +12,19 @@
                 <div class="header_buttons">
                     <div class="header_button">
                         <div class="header_bold_text">м. Костопіль, вул. Нечая, 22</div>
-                        <a class="button" href="#">
+                        <form action="map.php" method="get">
+                        <button name="request" value="map">
                             Переглянути на мапі
                             <img class="inline_svg_mappin" src="assets/images/svg/cut_map-pin.svg" alt="" />
-                        </a>
+                        </button>
+                        </form>
                     </div>
                     <div class="header_button">
                         <div class="header_bold_text">+38 (097) 235 73 87</div>
-                        <a class="button" href="#">
+                        <button>
                             Передзвоніть мені
                             <img class="inline_svg_phone" src="assets/images/svg/cut_phone.svg" alt="" />
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>

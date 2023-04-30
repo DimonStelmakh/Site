@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/about_us.css">
     <link rel="stylesheet" href="assets/css/catalog.css">
     <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/additional.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">

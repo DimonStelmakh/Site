@@ -6,8 +6,28 @@ body {
 }
 
 button {
-    font-family: 'Times New Roman', sans-serif;
-    background: transparent;
+    font-family: 'Times New Roman', sans-serif;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 0.8vw;
+    padding: 0.781vw 2.34vw;
+    font-size: 1.875vw;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444444;
+}
+
+button:active {
+    background-color: #666666;
 }
 
 *, *:before, *:after {
@@ -164,21 +184,6 @@ button {
     margin: 2.1vw;
 }
 
-.button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    vertical-align: middle;
-    align-items: center;
-    background-color: #333333;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-top: 0.8vw;
-    padding: 0.781vw 2.34vw;
-    font-size: 1.875vw;
-    color: #FFFFFF;
-}
-
 .inline_svg_mappin {
     display: inline-flex;
     filter: invert(100%);
@@ -327,7 +332,7 @@ button {
     opacity: 0.4;
 }
 
-:focus {
+.callback_field_text:focus {
     border: 0;
     outline: none;
 }
@@ -359,10 +364,15 @@ input[type=number] {  /* окремо для Mozilla Firefox */
     color: #FFFFFF;
     height: 100%;
     width: 31.5%;
+    cursor: pointer;
 }
 
 .callback_button:hover {
-    background-color: #555555;
+    background-color: #444444;
+}
+
+.callback_button:active {
+    background-color: #666666;
 }
 
 .button_map {
